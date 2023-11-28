@@ -4,6 +4,11 @@
 
   (paper "A0")
 
+  (title_block
+    (date "2023-11-28")
+    (comment 1 "repository: git@github.com:bl0x/daq_overview.git")
+  )
+
   (lib_symbols
     (symbol "daq_parts:clk_trg_distr1" (in_bom yes) (on_board yes)
       (property "Reference" "CLK_TRG_DISTR1" (at 0 0 0)
@@ -3216,6 +3221,10 @@
     (effects (font (size 5 5)) (justify left bottom))
     (uuid f773966f-f2d8-43b1-ab75-3217e8ce4e7f)
   )
+  (text "DAQ 202402_s118" (at 889 49.53 0)
+    (effects (font (size 20 20) bold) (justify left bottom))
+    (uuid fbb7588a-d707-453e-9860-a1a8040e78f1)
+  )
   (text "X86L-163 (TOFD12)\n" (at 674.37 250.19 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid fce70028-b012-422f-a726-3c721667873b)
@@ -5398,7 +5407,7 @@
   (symbol (lib_id "daq_parts:daq_node_source_mbs") (at 784.86 664.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9aa6e7e6-3374-4bdc-82cb-5acc48cefc84)
-    (property "Reference" "TRB3_MBS_NODE" (at 784.86 647.7 0)
+    (property "Reference" "TRB3_MBS_NODE:DAQ-RPC-R3B" (at 784.86 647.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 784.86 664.21 0)
@@ -5415,7 +5424,7 @@
     (instances
       (project "daq_overview"
         (path "/e1579a50-ec5d-40e2-abf2-cd20f2752378"
-          (reference "TRB3_MBS_NODE") (unit 1)
+          (reference "TRB3_MBS_NODE:DAQ-RPC-R3B") (unit 1)
         )
       )
     )
